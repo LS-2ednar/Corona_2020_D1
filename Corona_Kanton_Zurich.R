@@ -1,7 +1,7 @@
 #T1.1 Download Data form https://raw.githubusercontent.com/daenuprobst/covid19-cases-switzerland/master/age_distribution_zh.csv
 
 #T2.1 
-data = read.delim('Lukas_Schaub.csv', sep = ',', dec = '.', header = TRUE , na.strings=c("","NA"), stringsAsFactors=FALSE); data
+data = read.delim('age_distribution_zh.csv', sep = ',', dec = '.', header = TRUE , na.strings=c("","NA"), stringsAsFactors=FALSE); data
 data$region = 'Kanton Zuerich' # T4.1
 
 #T2.2 - T2.4
